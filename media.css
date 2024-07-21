@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 768px) {
     #page1{
-        background-color: red;
+        /* background-color: red; */
         padding: unset;
         margin: unset;
         gap: unset;
@@ -312,10 +312,6 @@
         font-size: 3vw;
         padding: 5px 0;
     }
-    
-    
-    
-    
 
     .sd-img-section img{
     width: 100%;
@@ -324,6 +320,200 @@
     object-position: 0% 30%;
     border-radius: 25px;
     }
+
+    #page3 {
+        width: 100%;
+        min-height: unset;
+        /* background-color: palegreen; */
+        /* padding: 4vw 3vw; */
+    }
+
+    .p4-in-overlay-left img {
+        width: 100%;
+        height: unset;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .p4-btm-overlay-left img {
+        width: 100%;
+        height: unset;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .p4-btm-overlay-right img {
+        width: 100%;
+        height: unset;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .p4-in-overlay-right img {
+        width: 100%;
+        height: unset;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    #page4-overlay {
+        width: 100%;
+        height: 20vh;
+        /* background-color: red; */
+        position: absolute;
+        /* top: 1vw; */
+        /* padding: 1vw 3vw; */
+    }
+
+    .p4-overlay-bottom-section {
+        width: 100%;
+        height: 8vh;
+        /* background-color: palevioletred; */
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+        /* padding: 0vw 10vw; */
+        padding: 0vw 5vw;
+    }
+
+    #page4 {
+        width: 100%;
+        min-height: unset;
+        /* background-color: peru; */
+        position: relative;
+        padding: 10vw 0;
+    }
+
+    #page5-wrapper h1{
+        font-size: 6.5vw;
+    }
+
+    #page5-wrapper p{
+        font-size: 4.4vw;
+    }
+
+    .p5-card-wrapper {
+        width: 100%;
+        min-height: 60vh;
+        /* background-color: red; */
+        padding: 0 3vw;
+        display: flex;
+        justify-content: center;
+        gap: 2vw;
+        align-items: center;
+        /* padding: 10vw 0vw; */
+    }
+
+    .teammate-img img {
+        width: 100%;
+        height: unset;
+        object-fit: cover;
+        object-position: 0% 20%;
+        border-radius: 20px;
+        filter: grayscale(10);
+    }
+
+    .teammate-img {
+        width: 20vw;
+        height: unset;
+        /* background-color: purple; */
+        border-radius: 20px;
+    }
+
+    .teammate-intro h2 {
+        font-size: 3.5vw;
+    }
+
+    #p5-cd-wrapper{
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        flex-wrap: wrap;
+    } 
+
+    .p5-team-card {
+        width: 20vw;
+        height: unset;
+        /* background-color: powderblue; */
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 1vw;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .p5-overlay {
+        width: unset;
+        height: 20vh;
+        /* background-color: palegreen; */
+        position: absolute;
+        top: -15vw;
+    }
+
+    .p5-overlay img{
+        height: 13vh;
+    }
+
+    .btm-top-wrap h1 {
+        font-size: 5vw;
+    }
+    .btm-top-wrap p{
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+.btm-top-wrap{
+    width: 100%;
+    height: 20%;
+    /* background-color: powderblue; */
+}
+
+.p5-btm-wrap {
+    width: 100%;
+    height: 45vh;
+    background-color: #E9E5E3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    position: relative;
+}
+
+
+#footer-wrapper {
+    width: 100%;
+    height: 20vh;
+    background-color: #043D2B;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3vw;
+}
+
+.section a{
+    font-size: 2vw;
+}
+
+.footer-top-left h2{
+    font-size: 5vw;
+}
+
+.footer-top-left p{
+    font-size: 3vw;
+}
+
+.footer-bottom-rigth a {
+    padding: unset;
+}
+
+.footer-bottom-rigth i{
+    padding: 8px 8px;
+}
   }
 
   

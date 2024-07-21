@@ -115,6 +115,8 @@ nav ul a{
     background-color: #000;
     border-radius: 10vw;
     padding: 12px 25px;
+    position: relative;
+    z-index: 99;
 }
 
 .gray-btn a{
@@ -125,6 +127,8 @@ nav ul a{
     display: flex;
     /* align-items: center; */
     gap: 0.3vw;
+    position: relative;
+    z-index: 99;
 }
 
 .anim-circle{
@@ -899,6 +903,16 @@ nav ul a{
     /* padding: 10vw 0vw; */
 }
 
+#p5-cd-wrapper{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+
+
 .p5-team-card {
     width: 20vw;
     height: 55vh;
@@ -909,6 +923,9 @@ nav ul a{
     flex-direction: column;
     border-radius: 20px;
 }
+
+
+
 
 .teammate-img {
     width: 20vw;
@@ -955,6 +972,7 @@ nav ul a{
     position: absolute;
     top: -5vw;
 }
+
 
 .btm-top-wrap{
     width: 100%;
@@ -1093,6 +1111,7 @@ nav ul a{
     display: flex;
     flex-direction: column;
     gap: 1vw;
+    /* background-color: red; */
 }
 
 .footer-top-right{
@@ -1109,7 +1128,8 @@ nav ul a{
 
 .section a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffffbd;
+    /* font-size: 1.5vw; */
 }
 
 #footer-bottom{
